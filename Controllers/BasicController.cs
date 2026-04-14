@@ -133,7 +133,7 @@ namespace Task1.Controllers
                 return Fail("Expired."); // Question 2
             }
 
-            // format ONLY for signature
+            // format for signature
             string formattedTimestamp = requestTime.ToString("yyyyMMddHHmmss");
 
             // Combine input
